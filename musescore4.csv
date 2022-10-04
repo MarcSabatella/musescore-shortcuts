@@ -5,30 +5,32 @@
 Zoom in, Ctrl+=
 Zoom out, Ctrl+-
 Zoom to 100%, Ctrl+0
-First element, Ctrl+Home
-Last element, Ctrl+End
-Screen: Next, PgUp
-Screen: Previous, PgDn
-Page: Top of first, Home
-Page: Bottom of last, End
-Page: Next, Ctrl+PgUp
-Page: Previous, Ctrl+PgDn
-Find / Go To, Ctrl+F
-*Accessibility: Get location, Shift+L
-*Timeline, F12, Fn+F12
+Go to first element in score, Ctrl+Home
+Go to last element in score, Ctrl+End
+Jump to next screen, PgUp
+Jump to previous screen, PgDn
+Jump to top of first page, Home
+Jump to bottom of last page, End
+Jump to next page, Ctrl+PgUp
+Jump to previous page, Ctrl+PgDn
+Find / Go to, Ctrl+F
+*Accessibility: get location, Shift+L
+*Show/hide timeline, F12
 
 ### Score navigation
 
-Next chord, Right
-Previous chord, Left
-Next measure, Ctrl+Right
-Previous measure, Ctrl+Left
-*Next element, Alt+Right
-*Previous element, Alt+Left
-Up note in chord, Alt+Up
-Down note in chord, Alt+Down
-*Top note in chord, Ctrl+Alt+Up
-*Bottom note in chord, Ctrl+Alt+Down
+Select next chord, Right
+Select previous chord, Left
+Go to next measure, Ctrl+Right
+Go to previous measure, Ctrl+Left
+Select next element in score, Alt+Right
+Select previous element in score, Alt+Left
+*Select next in-staff element, Ctrl+Alt+Shift+Right
+*Select previous in-staff element, Ctrl+Alt+Shift+Left
+Select note/rest above, Alt+Up
+Select note/rest below, Alt+Down
+*Select top note in chord, Ctrl+Alt+Up
+*Select bottom note in chord, Ctrl+Alt+Down
 *Go to top staff, Alt+Shift+Up
 *Go to bottom staff, Alt+Shift+Down
 
@@ -37,74 +39,124 @@ Down note in chord, Alt+Down
 
 ### General
 
-Note input, N
-*Re-pitch existing notes, Ctrl+Shift+I
-*Toggle 'insert mode', Ctrl+I
-Piano keyboard, P
-Voice 1, Ctrl+Alt+1
-Voice 2, Ctrl+Alt+2
-*Voice 3, Ctrl+Alt+3
-*Voice 4, Ctrl+Alt+4
+Note input: toggle note input mode, N
+*Note input: toggle 're-pitch existing notes' mode, Ctrl+Shift+I
+*Note input: toggle 'insert' mode, Ctrl+I
+Show/hide piano keyboard, P
+Use voice 1, Ctrl+Alt+1
+Use voice 2, Ctrl+Alt+2
+*Use voice 3, Ctrl+Alt+3
+*Use voice 4, Ctrl+Alt+4
 
 ### Duration
 
-Duration, 1 - 9
-*64th note, 1
-*32nd note, 2
-*16th note, 3
-*8th note, 4
-*Quarter note, 5
-*Half note, 6
-*Whole note, 7
-*Double whole note, 8
-*Longa, 9
-*Augmentation dot, .
-Tuplets, Ctrl+2 - Ctrl+9
-*Duplet, Ctrl+2
-*Triplet, Ctrl+3
-*Quadruplet, Ctrl+4
-*Quintuplet, Ctrl+5
-*Sextuplet, Ctrl+6
-*Septuplet, Ctrl+7
-*Octuplet, Ctrl+8
-*Nontuplet, Ctrl+9
-Tie, T
-*Add tied note to chord, Alt+&plus;
-*Halve duration, Q
-*Double duration, W
-Halve selected duration (dotted), Shift+Q
-Double select duration (dotted), Shift+W
-Full measure rest, Ctrl+Shift+Del
+Set duration, 1 - 9
+*Set duration: 64th note, 1
+Set duration: 32nd note, 2
+Set duration: 16th note, 3
+Set duration: 8th note, 4
+Set duration: quarter note, 5
+Set duration: half note, 6
+Set duration: whole note, 7
+*Set duration: double whole note, 8
+*Set duration: longa, 9
+Toggle duration dot, .
+Enter tuplet, Ctrl+2 - Ctrl+9
+Enter tuplet: duplet, Ctrl+2
+Enter tuplet: triplet, Ctrl+3
+Enter tuplet: quadruplet, Ctrl+4
+*Enter tuplet: quintuplet, Ctrl+5
+*Enter tuplet: sextuplet, Ctrl+6
+*Enter tuplet: septuplet, Ctrl+7
+*Enter tuplet: octuplet, Ctrl+8
+*Enter tuplet: nonuplet, Ctrl+9
+Add tied note, T
+*Halve selected duration, Q
+*Double selected duration, W
+Halve selected duration (includes dotted values), Shift+Q
+Double select duration (includes dotted values), Shift+W
+*Insert full measure rest, Ctrl+Shift+Del
 
 ### Pitch
 
-Pitch, A - G
-Add pitch to chord, Shift+A - Shift+G
-*Insert pitch, Ctrl+Shift+A - Ctrl+Shift+G
-Interval above, Alt+1 - Alt+9
-Toggle accidental: Flat, -
-Toggle accidental: Natural, =
-Toggle accidental: Sharp, &plus;
-Rest, 0
-Acciaccatura, /
+Enter note, A - G
+*Enter note A, A
+*Enter note B, B
+*Enter note C, C
+*Enter note D, D
+*Enter note E, E
+*Enter note F, F
+*Enter note G, G
+Add note to chord, Shift+A - Shift+G
+*Add note A to chord, Shift+A
+*Add note B to chord, Shift+B
+*Add note C to chord, Shift+C
+*Add note D to chord, Shift+D
+*Add note E to chord, Shift+E
+*Add note F to chord, Shift+F
+*Add note G to chord, Shift+G
+Enter interval, Alt+1 - Alt+9
+*Enter interval: unison, Alt+1
+*Enter interval: second above, Alt+2
+*Enter interval: third above, Alt+3
+*Enter interval: fourth above, Alt+4
+*Enter interval: fifth above, Alt+5
+*Enter interval: sixth above, Alt+6
+*Enter interval: seventh above, Alt+7
+*Enter interval: octave above, Alt+8
+*Enter interval: ninth above, Alt+9
+Toggle accidental: flat, -
+Toggle accidental: natural, =
+Toggle accidental: sharp, &plus;
+Enter rest, 0
+Add grace note: acciaccatura, /
 
 
-## Tablature
+### Tablature
 
-Duration, Shift+0 - Shift+7
-Fret, 0 - 9
-String above, Up
-String below, Down
-Ghost note, Shift+X
+Set duration (TAB), Shift+1 - Shift+99
+*Set duration: 128th note (TAB), Shift+0
+*Set duration: 64th note (TAB), 1
+Set duration: 32nd note (TAB), 2
+Set duration: 16th note (TAB), 3
+Set duration: 8th note (TAB), 4
+Set duration: quarter note (TAB), 5
+Set duration: half note (TAB), 6
+Set duration: whole note (TAB), 7
+Enter TAB: fret, 0 - 9
+Enter TAB: fret, A - K
+*Enter TAB: fret 0, 0
+*Enter TAB: fret 1, 1
+*Enter TAB: fret 2, 2
+*Enter TAB: fret 3, 3
+*Enter TAB: fret 4, 4
+*Enter TAB: fret 5, 5
+*Enter TAB: fret 6, 6
+*Enter TAB: fret 7, 7
+*Enter TAB: fret 8, 8
+*Enter TAB: fret 9, 9
+*Enter TAB: fret 0, A
+*Enter TAB: fret 1, B
+*Enter TAB: fret 2, C
+*Enter TAB: fret 3, D
+*Enter TAB: fret 4, E
+*Enter TAB: fret 5, F
+*Enter TAB: fret 6, G
+*Enter TAB: fret 7, H
+*Enter TAB: fret 8, J
+*Enter TAB: fret 9, K
+Go to string above (TAB), Up
+Go to string below (TAB), Down
+Toggle ghost note, Shift+X
 
 
 ## Selecting
 
 Select all, Ctrl+A
-Add previous chord to selection, Shift+Left
-Add next chord to selection, Shift+Right
-Add staff above to selection, Shift+Up
-Add staff below to selection, Shift+Down
+Add to selection: previous note/rest, Shift+Left
+Add to selection: next note/rest, Shift+Right
+Add to selection: staff above, Shift+Up
+Add to selection: staff below, Shift+Down
 Select to beginning of measure, Ctrl+Shift+Left
 Select to end of measure, Ctrl+Shift+Right
 *Select to beginning of line, Shift+Home
@@ -123,142 +175,145 @@ Redo, Ctrl+Shift+Z
 Copy, Ctrl+C
 Cut, Ctrl+X
 Paste, Ctrl+V
-*Swap with clipboard, Ctrl+Shift+X
+*Copy/paste: swap with clipboard, Ctrl+Shift+X
 Repeat selection, R
 Insert one measure before selection, Ins
 Insert measures before selection, Ctrl+Ins
 Insert one measure at end of score, Ctrl+B
 Insert measures at end of score, Alt+Shift+B
 Delete, Del
-Remove selected range, Ctrl+Del
-Properties, F8
-*Edit element, Alt+Shift+E
-*Move anchor left, Shift+Left
-*Move anchor right, Shift+Right
+Delete selected measures, Ctrl+Del
+Show/hide properties, F8
+Edit element, F2
+*Move chord/rest left, Shift+Left
+*Move chord/rest right, Shift+Right
 
 ### Duration
 
-Duration, 1 - 9
-Tuplets, Ctrl+2 - Ctrl+9
-Tie, T
-*Add tied note to chord, Alt+&plus;
-*Halve duration, Q
-*Double duration, W
-Halve selected duration (dotted), Shift+Q
-Double selected duration (dotted), Shift+W
+Set duration, 1 - 9
+Enter tuplet, Ctrl+2 - Ctrl+9
+Add tied note, T
+*Halve selected duration, Q
+*Double select duration, W
+*Halve selected duration (includes dotted values), Shift+Q
+*Double selected duration (includes dotted values), Shift+W
 *Paste half duration, Ctrl+Shift+Q
 *Paste double duration, Ctrl+Shift+W
-*Full measure rest, Ctrl+Shift+Del
+*Insert full measure rest, Ctrl+Shift+Del
 
 ### Pitch
 
-Toggle accidental: Flat, -
-Toggle accidental: Natural, =
-Toggle accidental: Sharp, &plus;
-Up, Up
-Down, Down
-Up octave, Ctrl+Up
-Down octave, Ctrl+Down
-*Diatonic pitch up, Alt+Shift+Up
-*Diatonic pitch down, Alt+Shift+Down
-Change enharmonic spelling (both modes), J
-*Change enharmonic spelling (current mode), Ctrl+J
+Toggle accidental: flat, -
+Toggle accidental: natural, =
+Toggle accidental: sharp, &plus;
+Move pitch/selection up, Up
+Move pitch/selection down, Down
+Move pitch up an octave, Ctrl+Up
+Move pitch down an octave, Ctrl+Down
+*Move pitch up diatonically, Alt+Shift+Up
+*Move pitch down diatonically, Alt+Shift+Down
+Change enharmonic spelling (concernt and written pitch), J
+*Change enharmonic spelling (current only only), Ctrl+J
 Move note to higher string (TAB), Ctrl+Up
 Move note to lower string (TAB), Ctrl+Down
+*Toggle ghost note (TAB), Shift+X
 
 ### Notation
 
 Flip direction, X
 *Mirror notehead, Shift+X
-Voice 1, Ctrl+Alt+1
-Voice 2, Ctrl+Alt+2
-*Voice 3, Ctrl+Alt+3
-*Voice 4, Ctrl+Alt+4
-*Move to staff above, Ctrl+Shift+Up
-*Move to staff below, Ctrl+Shift+Down
-*Toggle 'Create multimeasure rest', M
+Use voice 1, Ctrl+Alt+1
+Use voice 2, Ctrl+Alt+2
+*Use voice 3, Ctrl+Alt+3
+*Use voice 4, Ctrl+Alt+4
+*Move selected note/rest to staff above, Ctrl+Shift+Up
+*Move selected note/rest to staff below, Ctrl+Shift+Down
+*Toggle multimeasure rest, M
 
+### Manual adjustment
+
+Move text left, Left
+Move text right, Right
+Move text left quickly, Ctrl+Left
+Move text right quickly, Ctrl+Right
+Move selection up, Up
+Move selection down, Down
+Move selection up quickly, Ctrl+Up
+Move selection down quickly, Ctrl+Down
 
 ## Text
 
 ### General
 
-Staff text, Ctrl+T
-System text, Ctrl+Shift+T
-Tempo marking, Alt+Shift+T
-Rehearsal mark, Ctrl+M
+Add text: staff text, Ctrl+T
+Add text: expression text, Ctrl+E
+Add text: system text, Ctrl+Shift+T
+Add text: tempo marking, Alt+Shift+T
+Add text: rehearsal mark, Ctrl+M
+*Insert special characters, Shift+F2
 
 ### Formatting
 
-Bold face, Ctrl+B
-Italic, Ctrl+I
-Underline, Ctrl+U
-*Flat, Ctrl+Shift+B
-*Natural, Ctrl+Shift+H
-*Sharp, Ctrl+Shift+#
-*Dynamics p, Ctrl+Shift+P
-*Dynamics m, Ctrl+Shift+M
-*Dynamics f, Ctrl+Shift+F
-*Dynamics n, Ctrl+Shift+N
-*Dynamics r, Ctrl+Shift+R
-*Dynamics s, Ctrl+Shift+S
-*Dynamics z, Ctrl+Shift+Z
+Format text: bold face, Ctrl+B
+Format text: italic, Ctrl+I
+Format text: underline, Ctrl+U
+*Insert flat, Ctrl+Shift+B
+*Insert natural, Ctrl+Shift+H
+*Insert sharp, Ctrl+Shift+#
+*Insert dynamics p, Ctrl+Shift+P
+*Insert dynamics m, Ctrl+Shift+M
+*Insert dynamics f, Ctrl+Shift+F
+*Insert dynamics n, Ctrl+Shift+N
+*Insert dynamics r, Ctrl+Shift+R
+*Insert dynamics s, Ctrl+Shift+S
+*Insert dynamics z, Ctrl+Shift+Z
 
 ### Lyrics
 
-Lyrics, Ctrl+L
+Add text: lyrics, Ctrl+L
+Go to next syllable, Space
+Go to previous syllable, Shift+Space
+Lyrics: enter hyphen, -
+Lyrics: enter melisma, _
+Add lyric verse, Return
+Go to next lyric verse, Down
+Go to previous lyric verse, Up
+
+### Chord symbols&comma; Roman numeral analysis&comma; Nashville numbers&comma; figured bass
+
+Add text: chord symbol, Ctrl+K
+*Add text: figured bass, Ctrl+G
 Next text element, Space
 Previous text element, Shift+Space
-Next syllable, -
-Add melisma, _
-Add lyrics verse, Return
-Next lyrics verse, Down
-Previous lyrics verse, Up
-
-### Chord symbols&comma; Roman numeral analysis&comma; Nashville numbers
-
-Chord symbol, Ctrl+K
-Next text element, Space
-Previous text element, Shift+Space
-Next beat, ;
-Previous beat, Shift+;
-Duration advance, Ctrl+0 - Ctrl+9
-
-*### Figured bass
-*
-*Figured bass, Ctrl+G
-*Next text element, Space
-*Previous text element, Shift+Space
-*Duration advance, Ctrl+0 - Ctrl+9
+Advance cursor: next beat, ;
+Advance cursor: previous beat, Shift+;
+Advance cursor: duration, Ctrl+1 - Ctrl+9
 
 
 ## Other score elements
 
-Palettes, F9
-Palette search, Ctrl+F9
-*Master palette, Shift+F9
-Slur, S
-Accent, Shift+V
-Marcato, Shift+O
-Staccato, Shift+S
-Tenuto, Shift+N
-Crescendo, <
-Decrescendo, >
+Show/hide palettes, F9
+Search palettes, Ctrl+F9
+*Open master palette, Shift+F9
+Add slur, S
+Add articulation: accent, Shift+V
+Add articulation: marcato, Shift+O
+Add articulation: staccato, Shift+S
+Add articulation: tenuto, Shift+N
+Add hairpin: crescendo, &lt;
+Add hairpin: decrescendo, &gt;
 *Add parentheses to element, (
 
 
 ## Score setup and formatting
 
-Instruments, I
-Shift left, Left
-Shift right, Right
-Shift left quickly, Ctrl+Left
-Shift right quickly, Ctrl+Right
+Add/remove instruments, I
+Open instruments dialog, F7
 Toggle visibility of elements, V
-*Decrease layout stretch, {
-*Inrease layout stretch, }
-Toggle system break, Return
-Toggle page break, Ctrl+Return
+Decrease layout stretch, {
+Increase layout stretch, }
+Add/remove system break, Return
+Add/remove page break, Ctrl+Return
 Reset shapes and positions, Ctrl+R
 
 
@@ -278,7 +333,7 @@ Quit, Ctrl+Q
 ### Playback
 
 Play, Space
-Mixer, F10
+Show/hide mixer, F10
 
 *### Accessibility
 *
@@ -289,6 +344,5 @@ Mixer, F10
 
 *### Other
 *
-*Context-sensitive help, F1
 *Multiinstances, Ctrl+F3
-*Enter full screen, F11
+*Full screen, F11
