@@ -7,12 +7,12 @@ Zoom out, Ctrl+-
 Zoom to 100%, Ctrl+0
 Go to first element in score, Ctrl+Home
 Go to last element in score, Ctrl+End
-Jump to next screen, PgUp
-Jump to previous screen, PgDn
+Jump to next screen, PgDn
+Jump to previous screen, PgUp
 Jump to top of first page, Home
 Jump to bottom of last page, End
-Jump to next page, Ctrl+PgUp
-Jump to previous page, Ctrl+PgDn
+Jump to next page, Ctrl+PgDn
+Jump to previous page, Ctrl+PgUp
 Find / Go to, Ctrl+F
 *Accessibility: get location, Shift+L
 *Show/hide timeline, F12
